@@ -1,5 +1,5 @@
-import problem2.Singleton;
-import problem2.Singleton2;
+import problem2.Singleton3;
+import problem3.RepeatNumber;
 
 /**
  * @author Lil si
@@ -7,7 +7,8 @@ import problem2.Singleton2;
 public class Main {
 
     public static void main(String[] args) {
-        Singleton2 singleton2 = Singleton2.getInstance();
-        singleton2.showMessage();
+        RepeatNumber repeatNumber = new RepeatNumber();
+        int[] array = {1,3,2,5,4,3,2,0};
+        System.out.println(repeatNumber.getRepeat(array));
     }
 }
