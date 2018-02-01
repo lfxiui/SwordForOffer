@@ -1,4 +1,3 @@
-import problem2.Singleton3;
 import problem3.RepeatNumber;
 
 /**
@@ -8,7 +7,7 @@ public class Main {
 
     public static void main(String[] args) {
         RepeatNumber repeatNumber = new RepeatNumber();
-        int[] array = {1,3,2,5,4,3,2,0};
+        int[] array = {1, 3, 2, 5, 4, 3, 2, 0};
         System.out.println(repeatNumber.getRepeat(array));
     }
 }

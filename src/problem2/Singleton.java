@@ -7,9 +7,12 @@ package problem2;
  * @date 2018/1/30 0030 14:32
  */
 public class Singleton {
-    private Singleton(){}
+    private Singleton() {
+    }
+
     private static Singleton instance = new Singleton();
-    public static Singleton getInstance(){
+
+    public static Singleton getInstance() {
         return instance;
     }
 }
